@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input {
+    @apply bg-[#F4F4F4] w-[40lvh] h-[5.5lvh] rounded-xl placeholder:font-medium placeholder:text-[#C0C0C0] outline-none px-7;
+}
+.bungkusInput {
+    @apply text-[17px] text-cText2 w-full flex justify-between items-center mb-5;
+}
+.textJudul {
+    @apply text-cText3 text-[4lvh] font-bold border-b-[3px] border-[#989898];
+}
+.textParagraft {
+    @apply text-justify text-[1.9lvh] mt-6 text-cText2;
+}
+.tableBobot {
+    @apply border border-[#989898];
+}
