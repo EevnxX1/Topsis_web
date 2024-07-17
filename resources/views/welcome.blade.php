@@ -13,7 +13,7 @@
   <div class="w-full h-screen overflow-hidden flex flex-col">
     {{-- aksesoris --}}
     <div class="absolute -top-[150px] left-[200px]">
-      <img src="{{ asset('asset/asset_1.png') }}" class="w-[50lvw]" alt="">
+      <img src="{{ asset('asset/asset_1.png') }}" class="w-[100svh]" alt="">
     </div>
     {{-- end aksesoris --}}
     <div class="w-20 mr-8 mt-8 self-end">
@@ -26,7 +26,7 @@
         <a href=""><button class="w-max h-max bg-cText1 text-white py-[14px] px-16 font-bold text-[1.5lvw] mt-5">Cari Data</button></a>
       </div>
       <div class="">
-        <img src="{{ asset('asset/mahasiswa.png') }}" class="w-[67.3lvh]" alt="mahasiswa">
+        <img src="{{ asset('asset/mahasiswa.png') }}" class="w-[30vw]" alt="mahasiswa">
       </div>
     </section>
     <nav class="bg-cText1 flex justify-center flex-1">
@@ -65,34 +65,28 @@
             <table class="w-full text-cText2 text-center">
               <thead>
                 <tr class="h-16">
-                  <th class="border-x-[3px] border-b-[3px] border-cText2/50">Action</th>
                   <th class="border-x-[3px] border-b-[3px] border-cText2/50">Kode Bobot</th>
                   <th class="border-x-[3px] border-b-[3px] border-cText2/50">Bobot</th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="h-11">
-                  <td class="border-x-[3px] border-t-[3px] border-cText2/50">Hapus | Edit</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">1</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">Sangat Tidak Baik</td>
                 </tr>
                 <tr class="h-11">
-                  <td class="border-x-[3px] border-t-[3px] border-cText2/50">Hapus | Edit</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">2</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">Tidak Baik</td>
                 </tr>
                 <tr class="h-11">
-                  <td class="border-x-[3px] border-t-[3px] border-cText2/50">Hapus | Edit</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">3</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">Cukup Baik</td>
                 </tr>
                 <tr class="h-11">
-                  <td class="border-x-[3px] border-t-[3px] border-cText2/50">Hapus | Edit</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">4</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">Baik</td>
                 </tr>
                 <tr class="h-11">
-                  <td class="border-x-[3px] border-t-[3px] border-cText2/50">Hapus | Edit</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">5</td>
                   <td class="border-x-[3px] border-t-[3px] border-cText2/50">Sangat Baik</td>
                 </tr>
@@ -124,10 +118,6 @@
           <h1 class="text-[36px] font-bold text-cText2 text">Form Universitas</h1>
         </div>
         <form action="">
-          <div class="bungkusInput">
-            <label for="">Kode Universitas</label>
-            <input class="input" type="text" name="" id="" placeholder="Masukkan Kode Universitas">
-          </div>
           <div class="bungkusInput">
             <label for="">Nama Universitas</label>
             <input class="input" type="text" name="" id="" placeholder="Masukkan Nama Universitas">
@@ -194,13 +184,13 @@
   {{-- End page3 --}}
   {{-- page4 --}}
   <div id="page4" class="w-full h-max overflow-hidden flex justify-center mt-32 relative">
-    <div class="w-[85%] flex flex-col ">
+    <div class="w-[85%] flex flex-col">
       <div class="text-cText3 text-[4lvh] font-bold border-b-2 border-cText3 w-max">
         <h1>Data Universitas Alternatif & Kriteria</h1>
       </div>
       <div class="my-7 flex gap-x-5">
         <a href=""><button class="text-[1.7lvh] text-white bg-cText1 py-2 px-7 font-bold">+ Tambah Data</button></a>
-        <a href=""><button class="text-[1.7lvh] text-white bg-cText1 py-2 px-7 font-bold">Hapus Data</button></a>
+        <a href=""><button class="text-[1.7lvh] text-white bg-cText1 py-2 px-7 font-bold">Reset Data</button></a>
       </div>
       <div class="w-full h-max rounded-lg overflow-hidden border-y-[3px] border-cText2/50">
         <table class="w-full text-cText2 text-center">
@@ -213,7 +203,6 @@
               <th class="border-x-[3px] border-b-[3px] border-cText2/50">Fasilitas</th>
               <th class="border-x-[3px] border-b-[3px] border-cText2/50">Jurusan</th>
               <th class="border-x-[3px] border-b-[3px] border-cText2/50">Biaya</th>
-              <th class="border-x-[3px] border-b-[3px] border-cText2/50">Lokasi</th>
             </tr>
           </thead>
           <tbody>
@@ -225,7 +214,6 @@
               <td class="border-x-[3px] border-cText2/50">Fasilitas</td>
               <td class="border-x-[3px] border-cText2/50">Jurusan</td>
               <td class="border-x-[3px] border-cText2/50">Biaya</td>
-              <td class="border-x-[3px] border-cText2/50">Lokasi</td>
             </tr>
             <tr class="h-11">
               <td class="border-x-[3px] border-cText2/50">1</td>
@@ -235,7 +223,6 @@
               <td class="border-x-[3px] border-cText2/50">Fasilitas</td>
               <td class="border-x-[3px] border-cText2/50">Jurusan</td>
               <td class="border-x-[3px] border-cText2/50">Biaya</td>
-              <td class="border-x-[3px] border-cText2/50">Lokasi</td>
             </tr>
             <tr class="h-11">
               <td class="border-x-[3px] border-cText2/50">1</td>
@@ -245,10 +232,12 @@
               <td class="border-x-[3px] border-cText2/50">Fasilitas</td>
               <td class="border-x-[3px] border-cText2/50">Jurusan</td>
               <td class="border-x-[3px] border-cText2/50">Biaya</td>
-              <td class="border-x-[3px] border-cText2/50">Lokasi</td>
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="w-full h-max flex justify-end mt-4">
+        <a href=""><button class="w-max h-max px-20 py-2 text-lg self-end bg-cText1 text-white">Start Ranking</button></a>
       </div>
     </div>
   </div>
@@ -269,7 +258,6 @@
                 <th class="border-x-[3px] border-b-[3px] border-white">Fasilitas</th>
                 <th class="border-x-[3px] border-b-[3px] border-white">Jurusan</th>
                 <th class="border-x-[3px] border-b-[3px] border-white">Biaya</th>
-                <th class="border-x-[3px] border-b-[3px] border-white">Lokasi</th>
               </tr>
             </thead>
             <tbody>
@@ -281,7 +269,6 @@
                 <td class="border-x-[3px] border-white">Fasilitas</td>
                 <td class="border-x-[3px] border-white">Jurusan</td>
                 <td class="border-x-[3px] border-white">Biaya</td>
-                <td class="border-x-[3px] border-white">Lokasi</td>
               </tr>
               <tr class="h-11">
                 <td class="border-x-[3px] border-white">1</td>
@@ -291,7 +278,6 @@
                 <td class="border-x-[3px] border-white">Fasilitas</td>
                 <td class="border-x-[3px] border-white">Jurusan</td>
                 <td class="border-x-[3px] border-white">Biaya</td>
-                <td class="border-x-[3px] border-white">Lokasi</td>
               </tr>
               <tr class="h-11">
                 <td class="border-x-[3px] border-white">1</td>
@@ -301,7 +287,6 @@
                 <td class="border-x-[3px] border-white">Fasilitas</td>
                 <td class="border-x-[3px] border-white">Jurusan</td>
                 <td class="border-x-[3px] border-white">Biaya</td>
-                <td class="border-x-[3px] border-white">Lokasi</td>
               </tr>
             </tbody>
           </table>
